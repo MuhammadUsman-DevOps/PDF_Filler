@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82280609-7d4d-4cf2-848b-3d9535751f12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/filler/co_trustee_only_default_ebinder.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDF_Filler/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PDF_Filler/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PDF_Filler/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PDF_Filler/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/documents/CO-TRUSTEE _ CO-PROTECTOR DEFAULT EBINDER.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/documents/CO-TRUSTEE _ CO-PROTECTOR DEFAULT EBINDER.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/documents/CO-TRUSTEE ONLY DEFAULT EBINDER.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/documents/CO-TRUSTEE ONLY DEFAULT EBINDER.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +87,7 @@
       <workItem from="1658483272271" duration="3265000" />
       <workItem from="1658489426295" duration="13656000" />
       <workItem from="1658559699756" duration="7436000" />
-      <workItem from="1658581715458" duration="3162000" />
+      <workItem from="1658581715458" duration="7387000" />
     </task>
     <servers />
   </component>

@@ -27,7 +27,9 @@ urlpatterns = [
     path('co-trust-protector-only-default-ebinder/', views.co_trust_protector_only_default_ebinder,
          name="co_trust_protector_only_default_ebinder"),
     path('co-trustee-co-protector-default-ebinder/', views.co_trustee_co_protector_default_ebinder,
-         name="co_trustee_co_protector_default_ebinder")
+         name="co_trustee_co_protector_default_ebinder"),
+    path('co-trustee-only-default-ebinder/', views.co_trustee_only_default_ebinder,
+         name="co_trustee_only_default_ebinder"),
 ]
 urlpatterns += staticfiles_urlpatterns()
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
