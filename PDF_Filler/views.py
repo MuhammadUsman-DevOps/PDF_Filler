@@ -1,30 +1,33 @@
 from datetime import datetime
 
+from django.contrib import messages
+from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render, redirect
 
+
+def auth_login(request):
+    if request.method == 'POST':
+        username = request.POST.get("email_address")
+        password = request.POST.get("password")
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            login(request, user, backend='django.contrib.authentication.backends.ModelBackend')
+            return redirect("dashboard")
+        else:
+            messages.error(request, "Invalid login credentials!")
+
+    return render(request, template_name="authentication/signin.html")
+
+
+def auth_logout(request):
+    logout(request)
+    return redirect("auth_login")
 
 def dashboard(request):
     return render(request, template_name="dashboard/dashboard.html")
 
 
 def co_trust_protector_only_default_ebinder(request):
-    trust_name = ""
-    trustee_name = ""
-    date = ""
-    trust_protector_name = ""
-    co_trust_protector_name = ""
-    trustee_gender = ""
-    successor_trust_protector_name = ""
-    coin_inventory = ""
-    country_name = ""
-    beneficiary_1 = ""
-    beneficiary_2 = ""
-    beneficiary_3 = ""
-    street_address = ""
-    address_city = ""
-    state_abbriviation = ""
-    zip_code = ""
-
     if request.method == "POST":
         trust_name = request.POST.get("trust_name")
         trustee_name = request.POST.get("trustee_name")
@@ -67,6 +70,7 @@ def co_trust_protector_only_default_ebinder(request):
         return render(request, template_name="documents/CO-TRUST PROTECTOR ONLY DEFAULT EBINDER.html", context=context)
 
     return render(request, template_name="filler/co_trust_protector_only_default_ebinder.html")
+
 
 def co_trustee_co_protector_default_ebinder(request):
     if request.method == "POST":
@@ -207,6 +211,7 @@ def trustee_protector_only_default_ebinder(request):
                       context=context)
 
     return render(request, template_name="filler/trustee_protector_only_default_ebinder.html")
+
 
 def test(request):
     context = {

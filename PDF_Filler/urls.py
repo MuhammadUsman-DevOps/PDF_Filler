@@ -22,6 +22,8 @@ from PDF_Filler import settings, views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('accounts/login/', views.auth_login, name="auth_login"),
+    path('accounts/logout/', views.auth_logout, name="auth_logout"),
     path('dashboard/', views.dashboard, name="dashboard"),
     path('test/', views.test, name="test"),
     path('co-trust-protector-only-default-ebinder/', views.co_trust_protector_only_default_ebinder,
