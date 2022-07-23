@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82280609-7d4d-4cf2-848b-3d9535751f12" name="Default Changelist" comment="" />
+    <list default="true" id="82280609-7d4d-4cf2-848b-3d9535751f12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/filler/co_trustee_co_protector_default_ebinder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDF_Filler/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PDF_Filler/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDF_Filler/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PDF_Filler/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboard/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/documents/CO-TRUSTEE _ CO-PROTECTOR DEFAULT EBINDER.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/documents/CO-TRUSTEE _ CO-PROTECTOR DEFAULT EBINDER.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2Br6Lse7EvedcP5jIFKdjHCbDWr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,15 +36,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/documents" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/filler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\muham\PycharmProjects\PDF_Filler\templates\filler" />
       <recent name="C:\Users\muham\PycharmProjects\PDF_Filler\templates\documents" />
       <recent name="C:\Users\muham\PycharmProjects\PDF_Filler\static\img" />
       <recent name="C:\Users\muham\PycharmProjects\PDF_Filler\templates\base" />
       <recent name="C:\Users\muham\PycharmProjects\PDF_Filler\templates\auth" />
-      <recent name="C:\Users\muham\PycharmProjects\PDF_Filler" />
     </key>
   </component>
   <component name="RunManager">
@@ -75,7 +86,8 @@
       <workItem from="1657697743755" duration="5036000" />
       <workItem from="1658228677848" duration="18000" />
       <workItem from="1658483272271" duration="3265000" />
-      <workItem from="1658489426295" duration="12828000" />
+      <workItem from="1658489426295" duration="13656000" />
+      <workItem from="1658559699756" duration="7248000" />
     </task>
     <servers />
   </component>
@@ -87,15 +99,16 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1658228695333" />
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1658495841873">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="2596" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1658559699800">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1658495841873" />
-    <state x="2596" y="383" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1658483364035" />
+    <state x="2596" y="383" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1658559699800" />
     <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1657697745245" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1657710582794">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="2459" y="226" width="840" height="848" key="search.everywhere.popup" timestamp="1658561178890">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2459" y="226" width="840" height="848" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1658561178890" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1657710582794" />
   </component>
 </project>

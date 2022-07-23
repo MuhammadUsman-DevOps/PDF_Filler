@@ -1,0 +1,173 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block title %} Co-TRUSTEE CO-PROTECTOR DEFAULT EBINDER {% endblock title %}
+{% block main_content %}
+    <!-- Main Content -->
+    <div class="hk-pg-wrapper">
+        <!-- Container -->
+        <div class="container-fluid mt-xl-50 mt-sm-30 mt-15">
+            <!-- Row -->
+            <div class="row">
+                <div class="col-xl-12">
+                    <section class="hk-sec-wrapper">
+                        <h5 class="hk-sec-title">Co-TRUSTEE CO-PROTECTOR DEFAULT EBINDER</h5>
+                        <div class="row">
+                            <div class="col-sm">
+                                <form class="needs-validation" method="post" novalidate>
+                                    {% csrf_token %}
+                                    <div class="form-row">
+                                        <div class="col-md-4 mb-10">
+                                            <label for="trust_name">Trust Name</label>
+                                            <input type="text" class="form-control" id="trust_name" name="trust_name"
+                                                   placeholder="Trust Name" value="" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-10">
+                                            <label for="trustee_name">Trustee Name</label>
+                                            <input type="text" class="form-control" id="trustee_name" name="trustee_name"
+                                                   placeholder="Trustee Name" value="" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                         <div class="col-md-4 mb-10">
+                                            <label for="co_trustee_name">Co Trustee Name</label>
+                                            <input type="text" class="form-control" id="co_trustee_name" name="co_trustee_name"
+                                                   placeholder="Trustee Name" value="" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-md-4 mb-10">
+                                            <label for="trust_protector_name">Trust Protector Name</label>
+                                            <input type="text" class="form-control" id="trust_protector_name" name="trust_protector_name"
+                                                   placeholder="Trust Protector Name" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-10">
+                                            <label for="co_trust_protector_name">Co Trust Protector Name</label>
+                                            <input type="text" class="form-control" id="co_trust_protector_name" name="co_trust_protector_name"
+                                                   placeholder="Co Trust Protector Name" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-10">
+                                            <label for="trustee_gender">Trustee Gender</label>
+                                            <input type="text" class="form-control" id="trustee_gender" name="trustee_gender"
+                                                   placeholder="Trustee Gender" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-10">
+                                            <label for="successor_trust_protector_name">Successor Trust Protector Name</label>
+                                            <input type="text" class="form-control" id="successor_trust_protector_name" name="successor_trust_protector_name"
+                                                   placeholder="Successor Trust Protector Name" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-10">
+                                            <label for="coin_inventory">Coin Inventory</label>
+                                            <input type="text" class="form-control" id="coin_inventory" name="coin_inventory"
+                                                   placeholder="Coin Inventory" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-10">
+                                            <label for="country_name">County Name</label>
+                                            <input type="text" class="form-control" id="country_name" name="country_name"
+                                                   placeholder="County Name" required>
+                                           <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-10">
+                                            <label for="beneficiary_1">Beneficiary 1</label>
+                                            <input type="text" class="form-control" id="beneficiary_1" name="beneficiary_1"
+                                                   placeholder="Beneficiary 1" required>
+                                           <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-10">
+                                            <label for="beneficiary_2">Beneficiary 2</label>
+                                            <input type="text" class="form-control" id="beneficiary_2" name="beneficiary_2"
+                                                   placeholder="Beneficiary 2">
+                                           <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                         <div class="col-md-4 mb-10">
+                                            <label for="date">Date</label>
+                                            <input type="date" class="form-control" id="date" name="date"
+                                                  required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-md-6 mb-10">
+                                            <label for="street_address">Street Address</label>
+                                            <input type="text" class="form-control" id="street_address" name="street_address"
+                                                   placeholder="Street Address" required>
+                                           <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-10">
+                                            <label for="address_city">Address City</label>
+                                            <input type="text" class="form-control" id="address_city" name="address_city"
+                                                   placeholder="Address City" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-10">
+                                            <label for="state">State</label>
+                                            <input type="text" class="form-control" id="state" name="state"
+                                                   placeholder="State" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-10">
+                                            <label for="state_abbriviation">State Abbriviation</label>
+                                            <input type="text" class="form-control" id="state_abbriviation" name="state_abbriviation"
+                                                   placeholder="State Abbriviation" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-10">
+                                            <label for="zip_code">Zip Code</label>
+                                            <input type="text" class="form-control" id="zip_code" name="zip_code"
+                                                   placeholder="Zip" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary" type="submit">Generate Document</button>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+            <!-- /Row -->
+        </div>
+        <!-- /Container -->
+    </div>
+{% endblock main_content %}
