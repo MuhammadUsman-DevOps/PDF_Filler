@@ -67,7 +67,6 @@ def co_trust_protector_only_default_ebinder(request):
         return render(request, template_name="documents/CO-TRUST PROTECTOR ONLY DEFAULT EBINDER.html", context=context)
 
     return render(request, template_name="filler/co_trust_protector_only_default_ebinder.html")
-<span class="ffe fc1">T<span class="_ _0"></span>RUST <span class="_ _1"></span>NAME<span class="fc0"> <span class="_ _3"></span>P<span class="_ _0"></span>RIVATE <span class="_ _3"></span>T<span class="_ _0"></span>RUST<span class="fff">” <span class="_ _1"></span>and <span class="_ _3"></span>“<span class="ffe fc1">T<span class="_ _0"></span>RUSTEE <span class="_ _1"></span>NAME<span class="fff fc0">” <span class="_ _3"></span>is the<span class="_ _1"></span><span class="ffd"> <span class="_ _1"></span>designated </span></span></span></span></span></span>
 
 def co_trustee_co_protector_default_ebinder(request):
     if request.method == "POST":
@@ -107,6 +106,7 @@ def co_trustee_co_protector_default_ebinder(request):
             "state_abbriviation": state_abbriviation,
             "zip_code": zip_code,
             "state": state,
+            "successor_trustee_name": "successor_trustee_name",
         }
 
         return render(request, template_name="documents/CO-TRUSTEE _ CO-PROTECTOR DEFAULT EBINDER.html",
