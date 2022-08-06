@@ -82,6 +82,7 @@ def co_trustee_co_protector_default_ebinder(request):
         co_trust_protector_name = request.POST.get("co_trust_protector_name")
         trustee_gender = request.POST.get("trustee_gender")
         successor_trust_protector_name = request.POST.get("successor_trust_protector_name")
+        successor_trustee_name = request.POST.get("successor_trustee_name")
         coin_inventory = request.POST.get("coin_inventory")
         country_name = request.POST.get("country_name")
         beneficiary_1 = request.POST.get("beneficiary_1")
@@ -110,7 +111,7 @@ def co_trustee_co_protector_default_ebinder(request):
             "state_abbriviation": state_abbriviation,
             "zip_code": zip_code,
             "state": state,
-            "successor_trustee_name": "successor_trustee_name",
+            "successor_trustee_name": successor_trustee_name,
         }
 
         return render(request, template_name="documents/CO-TRUSTEE _ CO-PROTECTOR DEFAULT EBINDER.html",
@@ -139,6 +140,7 @@ def co_trustee_only_default_ebinder(request):
         zip_code = request.POST.get("zip_code")
         state = request.POST.get("state")
         date_new = datetime.strptime(date_new, '%Y-%m-%d')
+        successor_trustee_name = request.POST.get("successor_trustee_name")
         context = {
             "trust_name": trust_name,
             "trustee_name": trustee_name,
@@ -157,7 +159,7 @@ def co_trustee_only_default_ebinder(request):
             "state_abbriviation": state_abbriviation,
             "zip_code": zip_code,
             "state": state,
-            "successor_trustee_name": "successor_trustee_name",
+            "successor_trustee_name": successor_trustee_name,
         }
 
         return render(request, template_name="documents/CO-TRUSTEE ONLY DEFAULT EBINDER.html",

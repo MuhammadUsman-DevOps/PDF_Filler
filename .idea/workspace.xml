@@ -3,19 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="82280609-7d4d-4cf2-848b-3d9535751f12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDF_Filler/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PDF_Filler/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDF_Filler/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PDF_Filler/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PDF_Filler/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PDF_Filler/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/1foldericon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/2image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/3videoicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/4image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/5psdicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/6image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/auth/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/authentication/signin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/documents/CO-TRUST PROTECTOR ONLY DEFAULT EBINDER.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/documents/CO-TRUST PROTECTOR ONLY DEFAULT EBINDER.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/documents/CO-TRUSTEE ONLY DEFAULT EBINDER.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/documents/CO-TRUSTEE ONLY DEFAULT EBINDER.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/documents/CO-TRUSTEE _ CO-PROTECTOR DEFAULT EBINDER.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/documents/CO-TRUSTEE _ CO-PROTECTOR DEFAULT EBINDER.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/documents/TRUSTEE _ PROTECTOR ONLY DEFAULT EBINDER.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/documents/TRUSTEE _ PROTECTOR ONLY DEFAULT EBINDER.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/filler/co_trustee_co_protector_default_ebinder.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/filler/co_trustee_co_protector_default_ebinder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/filler/co_trustee_only_default_ebinder.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/filler/co_trustee_only_default_ebinder.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +38,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/filler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Visio" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -96,7 +90,11 @@
       <workItem from="1658483272271" duration="3265000" />
       <workItem from="1658489426295" duration="13656000" />
       <workItem from="1658559699756" duration="7436000" />
-      <workItem from="1658581715458" duration="13275000" />
+      <workItem from="1658581715458" duration="13940000" />
+      <workItem from="1658649210009" duration="126000" />
+      <workItem from="1659450547416" duration="3852000" />
+      <workItem from="1659600641810" duration="47000" />
+      <workItem from="1659766875351" duration="1310000" />
     </task>
     <servers />
   </component>
@@ -104,21 +102,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2606" y="234" key="FileChooserDialogImpl" timestamp="1658595263942">
+    <state x="2606" y="234" key="FileChooserDialogImpl" timestamp="1659600703398">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1658228695333" />
-    <state x="2606" y="234" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1658595263942" />
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1658584296122">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1658584296122" />
-    <state x="2596" y="383" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1658559699800" />
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1657697745245" />
-    <state x="2459" y="226" width="840" height="848" key="search.everywhere.popup" timestamp="1658602887487">
+    <state x="2606" y="234" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1659600703398" />
+    <state x="2596" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1659766883254">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2459" y="226" width="840" height="848" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1658602887487" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1658584296122" />
+    <state x="2596" y="383" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1659766883254" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1657697745245" />
+    <state x="2459" y="226" width="840" height="848" key="search.everywhere.popup" timestamp="1659767151431">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2459" y="226" width="840" height="848" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1659767151431" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1657710582794" />
   </component>
 </project>
